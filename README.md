@@ -27,15 +27,14 @@ HTML | SCSS | JS | ES6 | Webpack
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[you can add score]**
+- **[receiving data from the API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [LIVE DEMO UNAVAILABLE]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
