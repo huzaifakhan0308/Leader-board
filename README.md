@@ -28,6 +28,7 @@ HTML | SCSS | JS | ES6 | Webpack
 ### Key Features <a name="key-features"></a>
 
 - **[you can add score]**
+- **[sending data to the API]**
 - **[receiving data from the API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
