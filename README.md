@@ -8,6 +8,7 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
     - [Usage](#usage)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
@@ -47,6 +48,14 @@ In order to run this project you need:
 
 A GitHub | A code editor | A web browser
 
+### Install
+
+Install all project dependencies by running the command below
+
+  `$ npm install`
+  
+And run `npm start` to launch the project.
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -81,6 +90,6 @@ Thanks Microverse, learn how to code > [Join Microverse](https://www.microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

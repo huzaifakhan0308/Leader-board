@@ -46,12 +46,12 @@ main {
 
 .scores-section ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   height: 40vh;
   width: 100%;
   list-style: none;
   border: 2px solid rgb(0, 0, 0);
+  overflow-y: scroll;
 }
 
 /* add score section */
@@ -85,4 +85,12 @@ main {
   margin: 3vh 1vh 0 0;
   width: 10vh;
   height: 3vh;
+}
+
+/* js classes */
+
+li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
