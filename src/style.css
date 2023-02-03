@@ -14,11 +14,14 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5vh;
+  background-image: url("./assets/images/bgImage.jpg");
 }
 
 body header {
   font-size: 50px;
   font-weight: 1000;
+  color: rgba(255, 255, 255, 0.818);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.722);
 }
 
 main {
@@ -34,7 +37,9 @@ main {
 .scores-section {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.36);
+  border-radius: 10px;
 }
 
 .scores-section div {
@@ -42,15 +47,34 @@ main {
   justify-content: space-between;
   flex-direction: row;
   padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.refresh-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 49, 145, 0.195);
+  border: none;
+  border-radius: 5px;
+  width: 8vh;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background-color: rgba(128, 0, 128, 0.195);
+}
+
+.refresh-button:active {
+  background-color: rgba(137, 43, 226, 0.747);
 }
 
 .scores-section ul {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   list-style: none;
-  border: 2px solid rgb(0, 0, 0);
   overflow-y: scroll;
 }
 
@@ -60,21 +84,35 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   padding: 10px;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.36);
+  border-radius: 10px;
+}
+
+.add-score-h1 {
+  font-size: xx-large;
 }
 
 .add-score-section form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5vh;
 }
 
 .add-score-section form input {
-  width: 30vh;
+  width: 35vh;
   padding: 5px 5px 5px 10px;
   margin: 10px;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(255, 80, 80);
+  height: 4vh;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(2, 2, 2);
 }
 
 .add-score-section form button {
@@ -85,12 +123,31 @@ main {
   margin: 3vh 1vh 0 0;
   width: 10vh;
   height: 3vh;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: rgba(176, 19, 176, 0.366);
+  color: white;
+}
+
+.add-score-section form button:hover {
+  background-color: rgba(128, 0, 128, 0.195);
+}
+
+.add-score-section form button:active {
+  background-color: rgba(137, 43, 226, 0.747);
 }
 
 /* js classes */
 
 li {
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+li h1 {
+  color: rgba(255, 255, 255, 0.863);
 }
